@@ -1,4 +1,4 @@
-const resultScreen = document.querySelector('.calculator__result-screen');
+const resultScreen = document.querySelector('.result');
 const buttonEraser = document.querySelector('.eraser');
 const buttons = document.querySelectorAll('.calculator__column button');
 
@@ -12,7 +12,7 @@ buttonsArray.forEach(button => {
 
 function calculator(button, resultScreen) {
     switch (button.innerHTML) {
-        case '%':
+        case '÷':
             resultScreen.innerHTML = resultScreen.innerHTML+'/';
         break;
         case 'x':
