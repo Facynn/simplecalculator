@@ -150,11 +150,16 @@ all-center {
 }
 
 .note {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
     padding: 10px;
     text-align: center;
-    border-radius: 3px;
-    border-left: 4px solid grey;
-    width: 40%;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, .1);
+    width: 70%;
     margin: 10px auto;
 }
 
